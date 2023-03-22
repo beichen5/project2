@@ -39,3 +39,8 @@ body{
     color: #C53030;
     float: right;
 }
+.content{
+    font-family: cormorant;
+    color: #C53030;
+    font-size: 30px;
+}
