@@ -572,7 +572,7 @@
             {
                 label: 'Shusi',
                 value: `
-                <div class="image" style="width:120%; height="100%">
+                <div class="image" style="width:94%; height="100%">
                 <div class="inner">
                     <div class="front">
                         <img src="./img/fu/shusi.jpg" style="width:100%; height="100%">
