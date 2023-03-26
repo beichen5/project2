@@ -1,0 +1,91 @@
+@font-face {
+    font-family: gotisch;
+    src: url(font/BelweGotisch-VGRB.ttf);
+  }
+  @font-face {
+    font-family: cormorant;
+    src: url(font/CormorantUpright-Bold.ttf);
+  }
+  
+  html {
+    background-color: #f9f2e8;
+    position: relative;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .subtitle {
+    margin-right: 20px;
+  }
+  
+  .filter {
+    font-family: gotisch;
+    font-size: 70px;
+    color: #c53030;
+    text-align: right;
+  }
+
+  label {
+    text-align: right;
+    font-family: gotisch;
+    font-size: 30px;
+    width: 180px;
+    color: #c53030;
+  }
+  
+  .filter-list {
+    text-align: right;
+    font-family: gotisch;
+    font-size: 30px;
+    width: 180px;
+    color: #c53030;
+    float: right;
+    line-height: 30px;
+  }
+  
+  .left-container{
+    width:30%;
+  }
+
+  .content {
+    font-family: gotisch;
+    color: #c53030;
+    font-size: 30px;
+    margin-left:5px;
+  }
+
+  .back{
+    font-family: gotisch;
+    color:#c53030;
+    font-size: 25px;
+    float:right;
+    text-align: right;
+    margin-right: 20px;
+    opacity: 30%;
+  }
+
+  .back:hover{
+    opacity:100%;
+  }
+  
+  .center-container {
+    overflow-x: auto;
+    border-left: 1px #c53030 solid;
+    border-right: 1px #c53030 solid;
+  }
+
+  .list-projects{
+    margin-top: 2%;
+  }
+
+  li{
+    border-top: 1px #c53030 solid;
+  }
+
+  select {
+    appearance: none;
+    background-color: #f9f2e8;
+}

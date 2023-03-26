@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>index</title>
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="filter.css">
+</head>
+
+<body>
+
+	<div>
+        <div class="p-container flex flex-row flex-nowrap">
+            <div class="left-container flex-none h-screen flex flex-auto flex-col-reverse justify-between">
+                <a href="index.html"><div class="back">Back</div></a>
+
+                <div class="title flex flex-auto justify-end">
+                    <div class="subtitle">
+                        <div class="filter">Filter</div>
+                        <select class="filter-list" id="filter-list">
+                                <option value="all">All&#187;</option>
+                                <option value="ghosts">Ghosts&#187;</option>
+                                <option value="oddities">Oddities&#187;</option>
+                                <option value="monsters">Monsters&#187;</option>
+                        </select>
+                    </div>
+                </div>
+    
+    
+            </div>
+            
+            <div class="center-container h-screen flex-auto max-h-screen">
+    
+                <div class="content" id="content">
+                    <div id="list-projects" class="list-projects">
+                        <ul class="list" id="all-list">
+                            <li class="ghosts">Evil Dead</li>
+                            <li class="ghosts">Bite the Ghost</li>
+                            <li class="ghosts">Wang Liulang</li>
+                            <li class="ghosts">Ghosts Cry</li>
+                            <li class="ghosts">Painted Skin</li>
+                            <li class="ghosts">Nie Xiaoqian</li>
+                            <li class="ghosts">Beauty Head</li>
+                            <li class="ghosts">Yama</li>
+                            <li class="ghosts">Ghost Wife</li>
+                            <li class="ghosts">The Ghosts of the Servantsn</li>
+                            <li class="oddities">Cricket</li>
+                            <li class="oddities">Snake Charmer</li>
+                            <li class="oddities">Sharp Knife</li>
+                            <li class="oddities">Mouse Show</li>
+                            <li class="oddities">Righteous Dog</li>
+                            <li class="oddities">Wolf</li>
+                            <li class="ghosts">Gongsun Jiuniang</li>
+                            <li class="ghosts">Chess Ghost</li>
+                            <li class="oddities">Dragon</li>
+                            <li class="oddities">Alcoholic Insect</li>
+                            <li class="monsters">Qiongqi</li>
+                            <li class="monsters">Bo</li>
+                            <li class="monsters">Dijiang</li>
+                            <li class="monsters">Zheng</li>
+                            <li class="monsters">Phoenix</li>
+                            <li class="monsters">Nine-tailed Fox</li>
+                            <li class="monsters">Xuangui</li>
+                            <li class="monsters">Chiru</li>
+                            <li class="monsters">Shusi</li>
+                        </ul>
+                    </div>
+    
+                </div>
+            </div>
+   
+	<script src="https://code.jquery.com/jquery-3.6.4.js"
+			integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src=filter.js></script> 
+</body>
+
+</html>

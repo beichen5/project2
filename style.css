@@ -71,15 +71,6 @@ html {
   width:60%;
 }
 
-/*.title{
-  margin-left: 8%;
-  transition: margin-left 0.5s;
-}
-
-.title:hover{
-  margin-left: 54%;
-}*/
-
 .content {
   font-family: gotisch;
   color: #c53030;
@@ -108,6 +99,7 @@ html {
   border-left: 1px #c53030 solid;
   border-right: 1px #c53030 solid;
 }
+
 .article {
   font-family: cormorant;
   color: #c53030;
@@ -124,7 +116,6 @@ html {
   margin: 0 auto;
   perspective: 1000px;
   -webkit-perspective: 1000px;
-
 }
 
 .inner {
