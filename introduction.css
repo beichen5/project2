@@ -17,16 +17,12 @@
     margin: 0;
   }
   
-  .subtitle {
-    margin-right: 20px;
-  }
-  
   .title {
     font-family: gotisch;
     font-size: 70px;
     color: #c53030;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
   .left-container{
