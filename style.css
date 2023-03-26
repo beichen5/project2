@@ -35,7 +35,7 @@ html {
   float: right;
 }
 
-.filter{
+.small-text{
   font-family: gotisch;
   color:#c53030;
   font-size: 20px;
@@ -44,30 +44,21 @@ html {
   margin-right: 10px;
 }
 
-.ghosts{
+.introduction{
   transition: opacity 0.5s;
   opacity: 30%;
 }
 
-.ghosts:hover {
+.introduction:hover {
   opacity: 100%;
 }
 
-.oddities{
+.filter{
   transition: opacity 0.5s;
   opacity: 30%;
 }
 
-.oddities:hover {
-  opacity: 100%;
-}
-
-.monsters{
-  transition: opacity 0.5s;
-  opacity: 30%;
-}
-
-.monsters:hover {
+.filter:hover {
   opacity: 100%;
 }
 
