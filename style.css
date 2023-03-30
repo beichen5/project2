@@ -136,3 +136,7 @@ html {
 .image:hover .inner {
   transform: rotateY(180deg);
 }
+
+.list-projects{
+  margin-left: 5px;
+}
